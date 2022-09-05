@@ -111,10 +111,7 @@ public class CurrentReading{
     if (bit == 12) {
       return (reading > 0 && reading < 4095);
     }
-    else if (bit == 10) {
       return (reading > 0 && reading < 1023);
-    }
-    return false;
   }
 
 
