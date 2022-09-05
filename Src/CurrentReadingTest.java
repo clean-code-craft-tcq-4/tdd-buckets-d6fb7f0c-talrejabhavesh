@@ -41,4 +41,10 @@ public class CurrentReadingTest{
 
   }
   
+  @Test
+    public static void testInvalidRanges() {
+    List<Integer> bitReadings= Arrays.asList(409,820,5000);
+    System.out.println(CurrentReadings.convert12BitToAmps(bitReadings).equals(new ArrayList<>()));
+  }
+  
 }
